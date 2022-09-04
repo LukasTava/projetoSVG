@@ -1,0 +1,42 @@
+
+.search-div-external {
+    position: flex;
+    padding: 190px 0;
+    padding-left: 60px;
+}
+
+h3 {
+    color:#666666 ;
+}
+
+#bt {
+    background-color: #1facd8;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    height: 32px;
+}
+
+.search-div-internal{
+    height: 45px;
+    width: 70%;
+}
+
+.shape-div-external{
+    width: 89%;
+    padding-left: 660px;
+    margin-top: -350px;
+
+}
+
+.shape-div-internal{
+    padding-left: 60px;
+    width: 70%;
+}
+
+#svg {
+    fill: white;
+    filter: drop-shadow(1px 1px 0px black) drop-shadow(-1px 1px 0px black) drop-shadow(1px -1px 0px black) drop-shadow(-1px -1px 0px black);
+    width: 400px;
+    height: 400px;
+}

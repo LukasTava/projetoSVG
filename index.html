@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="./src/styles/Global.css" media="screen" />
+    </head>
+
+    <body>
+        <div class="search-div-external">
+            <h3>Pesquisar shape do Município</h3>
+            <div class="search-div-internal">
+                <input id='city' placeholder="Insira uma localização"/>
+                <button id="bt" onclick="searchCity()">Pesquisar</button>
+            </div>
+        </div>
+        <div class="shape-div-external">
+            <div class="shape-div-internal">
+                <svg id="svg" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                    <path id="svgDraw"/>
+                </svg> 
+            </div>
+        </div>
+
+    <script src="./src/index.js"></script>
+    </body>
+</html>
